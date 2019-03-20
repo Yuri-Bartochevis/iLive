@@ -1,0 +1,6 @@
+sudo docker stack deploy --compose-file docker-compose.yml {name_plataform}
+sudo docker stack rm {name_plataform}
+
+
+sudo docker service ls
+
